@@ -1,0 +1,12 @@
+.map {
+    padding: 16px;
+  }
+
+  .neighborhoods{
+    opacity:0.5;
+  }
+
+ .map svg{
+    width: 70%;
+    height: 80%;
+  }

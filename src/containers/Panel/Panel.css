@@ -1,0 +1,27 @@
+.panel {
+    background-color: #222;
+    border-color: #080808;
+    color: #ffffff;
+    padding: 16px;
+    position: absolute;
+    overflow-y: scroll;
+    left: 0;
+    top: 70px;
+    width: 200px;
+    height: 220px;
+  }
+  
+  /* above tablet version */
+  @media screen and (min-width:1025px){
+    .panel {
+      width: 250px;
+      height: 80vh;
+      left: auto;
+      right: 10vw;
+      top: 70px;
+    }
+  
+    .panel.detail {
+      height: 230px
+    }
+  }

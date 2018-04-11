@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.loading{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left:0;
+  top:0;
+  background: rgba(255,255,255,0.8);
+}
+
+.loader {
+  position: absolute;
+  left: calc(50vw - 80px);
+  top: calc(50vh - 12px);
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+nav{
+  background-color: #222;
+  border-color: #080808
+}
